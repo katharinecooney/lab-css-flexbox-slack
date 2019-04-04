@@ -19,11 +19,18 @@ nav grey: #5b5e6d;
   }
 }
 
-/**************** NAVBAR ****************/
+/**************** GENERAL ****************/
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.7rem;
 }
+
+header, main {
+  padding: 0 20px;
+}
+
+/**************** NAVBAR ****************/
 
 #navbar {
   display: flex;
@@ -42,3 +49,30 @@ body {
   margin-left: 15px;
 }
 
+/**************** HEADER ****************/
+
+#headerForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#headerForm input {
+  text-align: center;
+  border: 1px solid rgb(206, 203, 203);
+}
+
+#headerForm button {
+  background-color: #192592;
+  color: white;
+  /* outline: none; */
+  border: 1px solid #192592;
+}
+
+#headerForm input,
+#headerForm button {
+  height: 45px;
+}
+
+#headerForm + p {
+  text-align: center;
+}

@@ -38,6 +38,9 @@ header, main {
   align-items: center;
   padding: 10px 30px;
   height: 40px;
+  background-color: white;
+  position: sticky;
+  top: 0;
 }
 
 #navbar img {
@@ -75,4 +78,13 @@ header, main {
 
 #headerForm + p {
   text-align: center;
+}
+
+#headerImage {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  height: 45px;
 }

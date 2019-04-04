@@ -5,3 +5,40 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+/**************** MEDIA QUERIES ****************/
+
+@media (max-width: 768px) {
+  #navRight a {
+   visibility: hidden;
+  }
+
+  #navRight {
+    background: url("https://i.kinja-img.com/gawker-media/image/upload/s--fXy3vbfc--/c_scale,f_auto,fl_progressive,q_80,w_800/hij3rr0ddoyybxgy6zgy.jpg") center / contain no-repeat;
+    width: 40px;
+    height: 30px;
+  }
+}
+
+/**************** NAVBAR ****************/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  height: 40px;
+}
+
+#navbar img {
+  height: 50px;
+}
+
+#navRight a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+

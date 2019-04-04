@@ -59,9 +59,20 @@ header, #tryForFree, footer {
 
 /**************** HEADER ****************/
 
+.signIn {
+  text-align: center;
+}
+
+#headerImage {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 30px;
+}
+
 #headerForm {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 #headerForm input {
@@ -81,23 +92,15 @@ header, #tryForFree, footer {
   height: 45px;
 }
 
-.signIn {
-  text-align: center;
-}
-
-#headerImage {
-  width: 100%;
-  height: auto;
-}
-
 /**************** YOU'RE IN GOOD COMPANY ****************/
 
 #goodCompany {
   background-color: #F4F3F4;
+  padding-top: 30px;
 }
 
 #goodCompany h2 {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 #goodCompanyInner {
@@ -110,17 +113,29 @@ header, #tryForFree, footer {
 #goodCompanyInner .button {
   width: 80%;
   margin: 0 auto;
+  margin: 15px 0 40px;
 }
 
-.imageContainer {
+#goodCompanyInner .imageContainer {
   border-bottom: 1px solid rgb(197, 194, 194);
   width: 100%;
   display: flex;  
   justify-content: center;
 }
 
-.imageContainer img {
+#goodCompanyInner .imageContainer img {
   height: 50px;
   width: auto;
   padding: 30px 0;
 }
+
+/**************** TRY IT FOR FREE ****************/
+
+#tryForFree p:first-child {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/**************** FOOTER ****************/
+
